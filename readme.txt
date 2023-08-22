@@ -4,14 +4,14 @@ $ git --version
 git version 2.39.1.windows.1
 
 nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global user-name "Nestor Nieri"
+$ git config --global user-name "Your Name"
 error: key does not contain a section: user-name
 
 nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global user.name "Nestor Nieri"
+$ git config --global user.name "Your Name"
 
 nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global user.email nraulnieri@gmail.com
+$ git config --global user.email youremail@mail.com
 
 nndevs@DESKTOP-ROAL6TG MINGW64 ~
 $ git config --global core.editor "code --wait"

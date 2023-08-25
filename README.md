@@ -118,9 +118,12 @@ $ git remote add origin https://github.com/lakenest/ob-curso-git.git
 /*indicar a git que vamos a añadir un repositorio en la nube
 
 nndevs@DESKTOP-ROAL6TG MINGW64 /c/Users/Public/Documents/lakenest/cursoholamundo/miweb (master)
-$ git push -u origin master
+$ git push -u origin 'nombre_rama'
 
 /*subir el repositorio del equipo a la nube creando una rama master en origin || para subir a otra rama debes posicionarte ahi.
+
+/*actualizar rama local con info del github
+PS C:\Users\Public\Documents\lakenest\GuideGithub> git pull origin ramab --allow-unrelated-histories
 
 
 

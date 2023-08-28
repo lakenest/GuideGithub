@@ -1,23 +1,15 @@
-Curso Git
-nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git --version
-git version 2.39.1.windows.1
+# Curso Git Sintaxis Basica
+Verificar Instalacion 
+```git --version```
+>git version 2.39.1.windows.1
 
-nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global user-name "Your Name"
-error: key does not contain a section: user-name
+Configuracion inicial usuario: `git config --global user-name "YourName"`
 
-nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global user.name "Your Name"
+Configuracion inicial password: `git config --global user-email youremail@mail.com`
 
-nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global user.email youremail@mail.com
+Seter VScode como editor: `git config --global core.editor "code --wait"`
 
-nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global core.editor "code --wait"
-
-nndevs@DESKTOP-ROAL6TG MINGW64 ~
-$ git config --global -e
+Ver archivo de configuracion global: `git config --global -e`
 
 nndevs@DESKTOP-ROAL6TG MINGW64 ~
 $ git config--global core.autocrlf true
@@ -120,10 +112,17 @@ $ git remote add origin https://github.com/lakenest/ob-curso-git.git
 nndevs@DESKTOP-ROAL6TG MINGW64 /c/Users/Public/Documents/lakenest/cursoholamundo/miweb (master)
 $ git push -u origin 'nombre_rama'
 
-/*subir el repositorio del equipo a la nube creando una rama master en origin || para subir a otra rama debes posicionarte ahi.
+*subir el repositorio del equipo a la nube creando una rama master en origin, para subir a otra rama debes posicionarte ahi*
 
-/*actualizar rama local con info del github
-PS C:\Users\Public\Documents\lakenest\GuideGithub> git pull origin ramab --allow-unrelated-histories
+**actualizar rama local con info del github**
+```
+git pull origin ramab --allow-unrelated-histories
+```
+
+**Cambiar url repositorio github**
+```
+git remote set-url origin https://github.com/lakenest/TemplateRetrofit.git
+```
 
 
 
